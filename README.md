@@ -10,9 +10,24 @@
 
 
 # Table of contents
+* [Screenshots](#screenshots)
 * [Getting Started](#getting-started)
 * [Contributing](#contributing)
 
+## Screenshots
+
+### iPhone & iPad
+
+| iPhone 14 Pro | iPad Pro (12.9-inch) (6th generation) |
+|--|--|
+|<img src="https://github.com/buzruk/Chess/blob/master/screenshots/iPhone%2014%20Pro.gif" width="200">|<img src="https://github.com/buzruk/Chess/blob/master/screenshots/iPad%20Pro%20(12.9-inch)%20(6th%20generation).gif" width="400">|
+
+
+### macOS (Designed for iPad)
+
+| macos |
+|--|
+|<img src="https://github.com/buzruk/Chess/blob/master/screenshots/Designed%20for%20iPad.gif" width="400">|
 
 ## Getting Started
 * Clone repo and move inside it:
