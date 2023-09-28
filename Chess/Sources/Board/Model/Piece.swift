@@ -8,7 +8,7 @@
 struct Piece: Equatable, ExpressibleByStringLiteral {
   let id: String
   var type: PieceType
-  let color: Color
+  let color: ChessColor
 
   var imageName: String {
     return "\(type.rawValue)_\(color.rawValue)"

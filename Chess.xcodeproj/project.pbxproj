@@ -23,6 +23,9 @@
 		E617584B2AC58FE800BD2483 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617584A2AC58FE800BD2483 /* UIView+Extension.swift */; };
 		E617584D2AC5900000BD2483 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617584C2AC5900000BD2483 /* UIImageView+Extension.swift */; };
 		E61758502AC5901500BD2483 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617584F2AC5901500BD2483 /* Helper.swift */; };
+		E61758522AC590C900BD2483 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61758512AC590C900BD2483 /* Game.swift */; };
+		E61758542AC590D800BD2483 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61758532AC590D800BD2483 /* Move.swift */; };
+		E61758562AC590E800BD2483 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61758552AC590E800BD2483 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		E617584A2AC58FE800BD2483 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		E617584C2AC5900000BD2483 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		E617584F2AC5901500BD2483 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		E61758512AC590C900BD2483 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		E61758532AC590D800BD2483 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
+		E61758552AC590E800BD2483 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +148,9 @@
 		E61758362AC58ADB00BD2483 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E61758512AC590C900BD2483 /* Game.swift */,
+				E61758532AC590D800BD2483 /* Move.swift */,
+				E61758552AC590E800BD2483 /* GameState.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -277,10 +286,13 @@
 				E617583C2AC58DAA00BD2483 /* ChessColor.swift in Sources */,
 				E61758482AC58FA400BD2483 /* PieceType.swift in Sources */,
 				E61758212AC589FC00BD2483 /* ViewController.swift in Sources */,
+				E61758562AC590E800BD2483 /* GameState.swift in Sources */,
 				E61758402AC58DCD00BD2483 /* Position.swift in Sources */,
 				E617584D2AC5900000BD2483 /* UIImageView+Extension.swift in Sources */,
 				E617581D2AC589FC00BD2483 /* AppDelegate.swift in Sources */,
 				E61758462AC58F9300BD2483 /* Piece.swift in Sources */,
+				E61758522AC590C900BD2483 /* Game.swift in Sources */,
+				E61758542AC590D800BD2483 /* Move.swift in Sources */,
 				E617583E2AC58DC000BD2483 /* Delta.swift in Sources */,
 				E61758502AC5901500BD2483 /* Helper.swift in Sources */,
 				E61758442AC58F7300BD2483 /* Board.swift in Sources */,

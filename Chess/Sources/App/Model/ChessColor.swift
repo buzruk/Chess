@@ -5,11 +5,11 @@
 //  Created by Buzurgmexr Sultonaliyev on 28/09/23.
 //
 
-enum Color: String {
+enum ChessColor: String {
   case white
   case black
 
-  var other: Color {
+  var other: ChessColor {
     self == .black
       ? .white
       : .black
