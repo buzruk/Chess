@@ -58,10 +58,6 @@
 			children = (
 				E61758312AC58A9400BD2483 /* Resources */,
 				E61758302AC58A8300BD2483 /* Sources */,
-				E617581C2AC589FC00BD2483 /* AppDelegate.swift */,
-				E617581E2AC589FC00BD2483 /* SceneDelegate.swift */,
-				E61758202AC589FC00BD2483 /* ViewController.swift */,
-				E61758222AC589FC00BD2483 /* Main.storyboard */,
 				E617582A2AC589FD00BD2483 /* Info.plist */,
 			);
 			path = Chess;
@@ -70,6 +66,7 @@
 		E61758302AC58A8300BD2483 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				E61758392AC58B5200BD2483 /* App */,
 				E61758332AC58AC400BD2483 /* Board */,
 				E61758322AC58AC100BD2483 /* Game */,
 			);
@@ -107,6 +104,7 @@
 		E61758342AC58AD000BD2483 /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				E61758202AC589FC00BD2483 /* ViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -114,6 +112,7 @@
 		E61758352AC58AD700BD2483 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E61758222AC589FC00BD2483 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,6 +136,15 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E61758392AC58B5200BD2483 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E617581C2AC589FC00BD2483 /* AppDelegate.swift */,
+				E617581E2AC589FC00BD2483 /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

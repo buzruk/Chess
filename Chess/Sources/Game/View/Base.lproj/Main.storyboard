@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22129"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Chess" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2D1-fJ-S11">
+                                <rect key="frame" x="16" y="264.66666666666669" width="361" height="323.00000000000006"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="2D1-fJ-S11" secondAttribute="height" multiplier="19:17" id="prD-xC-mzG"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QK5-nN-lb6">
+                                <rect key="frame" x="134" y="688" width="126" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Restart game">
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jhV-Na-GQw">
+                                <rect key="frame" x="16" y="175.33333333333334" width="361" height="69.333333333333343"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="kDZ-kE-AYr">
+                                        <rect key="frame" x="0.0" y="0.0" width="170.66666666666666" height="69.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="White" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GO6-QA-ijj">
+                                                <rect key="frame" x="63" y="0.0" width="44.333333333333343" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="eT1-Tt-jM4">
+                                                <rect key="frame" x="0.0" y="38.333333333333314" width="170.66666666666666" height="32"/>
+                                                <segments>
+                                                    <segment title="Human"/>
+                                                    <segment title="Computer"/>
+                                                </segments>
+                                            </segmentedControl>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="eT1-Tt-jM4" secondAttribute="bottom" id="6dT-Ht-gsA"/>
+                                            <constraint firstItem="GO6-QA-ijj" firstAttribute="centerX" secondItem="kDZ-kE-AYr" secondAttribute="centerX" id="hrk-ph-w55"/>
+                                            <constraint firstItem="eT1-Tt-jM4" firstAttribute="leading" secondItem="kDZ-kE-AYr" secondAttribute="leading" id="hyp-Sj-a3t"/>
+                                            <constraint firstAttribute="trailing" secondItem="eT1-Tt-jM4" secondAttribute="trailing" id="jEb-Sr-KsG"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="PCP-cL-mnN">
+                                        <rect key="frame" x="190.66666666666663" y="0.0" width="170.33333333333337" height="69.333333333333329"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Black" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kfn-RP-beb">
+                                                <rect key="frame" x="64.333333333333343" y="0.0" width="41.666666666666657" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="1" translatesAutoresizingMaskIntoConstraints="NO" id="dPa-3c-yk3">
+                                                <rect key="frame" x="0.0" y="38.333333333333314" width="170.33333333333334" height="32"/>
+                                                <segments>
+                                                    <segment title="Human"/>
+                                                    <segment title="Computer"/>
+                                                </segments>
+                                            </segmentedControl>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="kfn-RP-beb" firstAttribute="centerX" secondItem="PCP-cL-mnN" secondAttribute="centerX" id="a5J-Cn-yaR"/>
+                                            <constraint firstAttribute="trailing" secondItem="dPa-3c-yk3" secondAttribute="trailing" id="aXN-WB-vnE"/>
+                                            <constraint firstAttribute="bottom" secondItem="dPa-3c-yk3" secondAttribute="bottom" id="jsG-Ld-zfj"/>
+                                            <constraint firstItem="dPa-3c-yk3" firstAttribute="leading" secondItem="PCP-cL-mnN" secondAttribute="leading" id="kTU-5A-kNL"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="2D1-fJ-S11" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1VV-Vd-7v9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2D1-fJ-S11" secondAttribute="trailing" constant="16" id="5Vw-SV-e7t"/>
+                            <constraint firstItem="2D1-fJ-S11" firstAttribute="top" secondItem="jhV-Na-GQw" secondAttribute="bottom" constant="20" id="ItD-ta-o67"/>
+                            <constraint firstItem="2D1-fJ-S11" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QZH-8S-i7g"/>
+                            <constraint firstItem="jhV-Na-GQw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="WiM-fe-dMz"/>
+                            <constraint firstItem="2D1-fJ-S11" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cGA-E2-zti"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jhV-Na-GQw" secondAttribute="trailing" constant="16" id="hMe-52-blZ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
