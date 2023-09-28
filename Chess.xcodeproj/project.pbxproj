@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		E617581D2AC589FC00BD2483 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617581C2AC589FC00BD2483 /* AppDelegate.swift */; };
 		E617581F2AC589FC00BD2483 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E617581E2AC589FC00BD2483 /* SceneDelegate.swift */; };
-		E61758212AC589FC00BD2483 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61758202AC589FC00BD2483 /* ViewController.swift */; };
+		E61758212AC589FC00BD2483 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61758202AC589FC00BD2483 /* GameVC.swift */; };
 		E61758242AC589FC00BD2483 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61758222AC589FC00BD2483 /* Main.storyboard */; };
 		E61758262AC589FD00BD2483 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61758252AC589FD00BD2483 /* Assets.xcassets */; };
 		E61758292AC589FD00BD2483 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E61758272AC589FD00BD2483 /* LaunchScreen.storyboard */; };
@@ -32,7 +32,7 @@
 		E61758192AC589FC00BD2483 /* Chess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E617581C2AC589FC00BD2483 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E617581E2AC589FC00BD2483 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E61758202AC589FC00BD2483 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E61758202AC589FC00BD2483 /* GameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 		E61758232AC589FC00BD2483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E61758252AC589FD00BD2483 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E61758282AC589FD00BD2483 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -132,7 +132,7 @@
 		E61758342AC58AD000BD2483 /* VC */ = {
 			isa = PBXGroup;
 			children = (
-				E61758202AC589FC00BD2483 /* ViewController.swift */,
+				E61758202AC589FC00BD2483 /* GameVC.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -285,7 +285,7 @@
 				E61758422AC58F6600BD2483 /* BoardView.swift in Sources */,
 				E617583C2AC58DAA00BD2483 /* ChessColor.swift in Sources */,
 				E61758482AC58FA400BD2483 /* PieceType.swift in Sources */,
-				E61758212AC589FC00BD2483 /* ViewController.swift in Sources */,
+				E61758212AC589FC00BD2483 /* GameVC.swift in Sources */,
 				E61758562AC590E800BD2483 /* GameState.swift in Sources */,
 				E61758402AC58DCD00BD2483 /* Position.swift in Sources */,
 				E617584D2AC5900000BD2483 /* UIImageView+Extension.swift in Sources */,
