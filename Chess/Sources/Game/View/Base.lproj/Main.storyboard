@@ -23,14 +23,6 @@
                                     <constraint firstAttribute="width" secondItem="2D1-fJ-S11" secondAttribute="height" multiplier="19:17" id="prD-xC-mzG"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QK5-nN-lb6">
-                                <rect key="frame" x="134" y="688" width="126" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Restart game">
-                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
-                                </buttonConfiguration>
-                            </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="jhV-Na-GQw">
                                 <rect key="frame" x="16" y="175.33333333333334" width="361" height="69.333333333333343"/>
                                 <subviews>
@@ -84,15 +76,25 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QK5-nN-lb6">
+                                <rect key="frame" x="133.66666666666666" y="733.66666666666663" width="125.66666666666666" height="34.333333333333371"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Restart game">
+                                    <color key="baseForegroundColor" systemColor="systemOrangeColor"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="2D1-fJ-S11" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="1VV-Vd-7v9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2D1-fJ-S11" secondAttribute="trailing" constant="16" id="5Vw-SV-e7t"/>
+                            <constraint firstItem="QK5-nN-lb6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FOc-PB-DKi"/>
                             <constraint firstItem="2D1-fJ-S11" firstAttribute="top" secondItem="jhV-Na-GQw" secondAttribute="bottom" constant="20" id="ItD-ta-o67"/>
                             <constraint firstItem="2D1-fJ-S11" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QZH-8S-i7g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QK5-nN-lb6" secondAttribute="bottom" constant="50" id="Rcp-PS-5KW"/>
                             <constraint firstItem="jhV-Na-GQw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="WiM-fe-dMz"/>
+                            <constraint firstItem="QK5-nN-lb6" firstAttribute="top" secondItem="2D1-fJ-S11" secondAttribute="bottom" constant="145.99999999999989" id="bgf-5F-uhP"/>
                             <constraint firstItem="2D1-fJ-S11" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="cGA-E2-zti"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jhV-Na-GQw" secondAttribute="trailing" constant="16" id="hMe-52-blZ"/>
                         </constraints>
