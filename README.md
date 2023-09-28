@@ -42,7 +42,7 @@
 
 
 ## Contributing
-To start contributing, check out [CONTRIBUTING.md](https://github.com/IEEE-VIT/ToDo-iOS/blob/master/contributing.md). New contributors are always welcome to support this project.
+To start contributing, check out [CONTRIBUTING.md](https://github.com/buzruk/Chess/blob/master/CONTRIBUTING.md). New contributors are always welcome to support this project.
 
 ** Follow this steps:
 
