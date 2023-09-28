@@ -20,9 +20,9 @@ class GameVC: UIViewController {
     update()
   }
 
-//  override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-//    return .portrait
-//  }
+  override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+    return .portrait
+  }
 
   @IBAction private func togglePlayerType() {
     makeComputerMove()
@@ -42,7 +42,7 @@ class GameVC: UIViewController {
     let cancelAction = Helper.alertAction(isCancelAction: true)
 
     let alert = Helper.alert(
-      title: "Are you sure you want to reset game?",
+      title: "Are you sure you want to reset game?".localized,
       message: nil,
       actions: [okAction, cancelAction]
     )
@@ -100,10 +100,13 @@ extension GameVC: BoardViewDelegate {
       }
 
       let alert = Helper.alert(
-        title: "Game Over",
+        title: "Game Over".localized,
         message: gameState == .staleMate
-          ? "Stalemate: Nobody wins"
-          : "Checkmate: \(game.turn.other) wins",
+          ? "Stalemate: Nobody wins".localized
+          : game.turn == .black
+
+          ? "Checkmate: white wins".localized
+          : "Checkmate: black wins".localized,
         actions: [okAction]
       )
 

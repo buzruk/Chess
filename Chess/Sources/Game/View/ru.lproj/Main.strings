@@ -1,24 +1,24 @@
 
 /* Class = "UILabel"; text = "White"; ObjectID = "GO6-QA-ijj"; */
-"GO6-QA-ijj.text" = "White";
+"GO6-QA-ijj.text" = "Белый";
 
 /* Class = "UIButton"; configuration.title = "Restart game"; ObjectID = "QK5-nN-lb6"; */
-"QK5-nN-lb6.configuration.title" = "Restart game";
+"QK5-nN-lb6.configuration.title" = "Перезапустить игру";
 
-/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QK5-nN-lb6"; */
-"QK5-nN-lb6.normalTitle" = "Button";
+/* Class = "UIButton"; normalTitle = "Restart game"; ObjectID = "QK5-nN-lb6"; */
+"QK5-nN-lb6.normalTitle" = "Перезапустить игру";
 
 /* Class = "UISegmentedControl"; dPa-3c-yk3.segmentTitles[0] = "Human"; ObjectID = "dPa-3c-yk3"; */
-"dPa-3c-yk3.segmentTitles[0]" = "Human";
+"dPa-3c-yk3.segmentTitles[0]" = "Человек";
 
 /* Class = "UISegmentedControl"; dPa-3c-yk3.segmentTitles[1] = "Computer"; ObjectID = "dPa-3c-yk3"; */
-"dPa-3c-yk3.segmentTitles[1]" = "Computer";
+"dPa-3c-yk3.segmentTitles[1]" = "Компьютер";
 
 /* Class = "UISegmentedControl"; eT1-Tt-jM4.segmentTitles[0] = "Human"; ObjectID = "eT1-Tt-jM4"; */
-"eT1-Tt-jM4.segmentTitles[0]" = "Human";
+"eT1-Tt-jM4.segmentTitles[0]" = "Человек";
 
 /* Class = "UISegmentedControl"; eT1-Tt-jM4.segmentTitles[1] = "Computer"; ObjectID = "eT1-Tt-jM4"; */
-"eT1-Tt-jM4.segmentTitles[1]" = "Computer";
+"eT1-Tt-jM4.segmentTitles[1]" = "Компьютер";
 
 /* Class = "UILabel"; text = "Black"; ObjectID = "kfn-RP-beb"; */
-"kfn-RP-beb.text" = "Black";
+"kfn-RP-beb.text" = "Черный";

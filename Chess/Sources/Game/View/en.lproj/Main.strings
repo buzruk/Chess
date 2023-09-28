@@ -6,7 +6,7 @@
 "QK5-nN-lb6.configuration.title" = "Restart game";
 
 /* Class = "UIButton"; normalTitle = "Button"; ObjectID = "QK5-nN-lb6"; */
-"QK5-nN-lb6.normalTitle" = "Button";
+"QK5-nN-lb6.normalTitle" = "Restart game";
 
 /* Class = "UISegmentedControl"; dPa-3c-yk3.segmentTitles[0] = "Human"; ObjectID = "dPa-3c-yk3"; */
 "dPa-3c-yk3.segmentTitles[0]" = "Human";

@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  Chess
+
+  Created by Buzurgmexr Sultonaliyev on 28/09/23.
+  
+*/
+"Are you sure you want to reset game?" = "Haqiqatan ham oʻyinni qayta tiklamoqchimisiz?";
+"Game Over" = "O'yin tamom";
+"Stalemate: Nobody wins" = "Durrang: Hech kim g'alaba qozonmaydi";
+"Checkmate: black wins" = "Mot: qoralar g'alaba qozonadi";
+"Checkmate: white wins" = "Mot: oqlarlar g'alaba qozonadi";

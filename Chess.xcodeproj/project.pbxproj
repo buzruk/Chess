@@ -26,6 +26,8 @@
 		E61758522AC590C900BD2483 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61758512AC590C900BD2483 /* Game.swift */; };
 		E61758542AC590D800BD2483 /* Move.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61758532AC590D800BD2483 /* Move.swift */; };
 		E61758562AC590E800BD2483 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61758552AC590E800BD2483 /* GameState.swift */; };
+		E6713F242AC5A12F00C27EA8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6713F262AC5A12F00C27EA8 /* Localizable.strings */; };
+		E6713F2A2AC5A65B00C27EA8 /* LocalizationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6713F292AC5A65B00C27EA8 /* LocalizationHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,14 @@
 		E61758512AC590C900BD2483 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		E61758532AC590D800BD2483 /* Move.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Move.swift; sourceTree = "<group>"; };
 		E61758552AC590E800BD2483 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
+		E6713F1E2AC5A04A00C27EA8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		E6713F1F2AC5A04A00C27EA8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		E6713F202AC5A05500C27EA8 /* uz-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-UZ"; path = "uz-UZ.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		E6713F212AC5A05600C27EA8 /* uz-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-UZ"; path = "uz-UZ.lproj/Main.strings"; sourceTree = "<group>"; };
+		E6713F252AC5A12F00C27EA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6713F272AC5A13200C27EA8 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E6713F282AC5A13300C27EA8 /* uz-UZ */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "uz-UZ"; path = "uz-UZ.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E6713F292AC5A65B00C27EA8 /* LocalizationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +117,7 @@
 			children = (
 				E61758272AC589FD00BD2483 /* LaunchScreen.storyboard */,
 				E61758252AC589FD00BD2483 /* Assets.xcassets */,
+				E6713F262AC5A12F00C27EA8 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -207,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				E617584F2AC5901500BD2483 /* Helper.swift */,
+				E6713F292AC5A65B00C27EA8 /* LocalizationHelper.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -253,6 +265,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
+				"uz-UZ",
 			);
 			mainGroup = E61758102AC589FC00BD2483;
 			productRefGroup = E617581A2AC589FC00BD2483 /* Products */;
@@ -270,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E61758292AC589FD00BD2483 /* LaunchScreen.storyboard in Resources */,
+				E6713F242AC5A12F00C27EA8 /* Localizable.strings in Resources */,
 				E61758262AC589FD00BD2483 /* Assets.xcassets in Resources */,
 				E61758242AC589FC00BD2483 /* Main.storyboard in Resources */,
 			);
@@ -298,6 +313,7 @@
 				E61758502AC5901500BD2483 /* Helper.swift in Sources */,
 				E61758442AC58F7300BD2483 /* Board.swift in Sources */,
 				E617581F2AC589FC00BD2483 /* SceneDelegate.swift in Sources */,
+				E6713F2A2AC5A65B00C27EA8 /* LocalizationHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,6 +325,8 @@
 			children = (
 				E61758232AC589FC00BD2483 /* Base */,
 				E614B70D2AC59B0600081860 /* en */,
+				E6713F1F2AC5A04A00C27EA8 /* ru */,
+				E6713F212AC5A05600C27EA8 /* uz-UZ */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -317,8 +335,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				E61758282AC589FD00BD2483 /* Base */,
+				E6713F1E2AC5A04A00C27EA8 /* ru */,
+				E6713F202AC5A05500C27EA8 /* uz-UZ */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E6713F262AC5A12F00C27EA8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6713F252AC5A12F00C27EA8 /* en */,
+				E6713F272AC5A13200C27EA8 /* ru */,
+				E6713F282AC5A13300C27EA8 /* uz-UZ */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -455,11 +485,11 @@
 				DEVELOPMENT_TEAM = H2RT38X4Z7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chess/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -484,11 +514,11 @@
 				DEVELOPMENT_TEAM = H2RT38X4Z7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Chess/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.board-games";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
