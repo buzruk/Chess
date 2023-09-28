@@ -56,15 +56,87 @@
 		E617581B2AC589FC00BD2483 /* Chess */ = {
 			isa = PBXGroup;
 			children = (
+				E61758312AC58A9400BD2483 /* Resources */,
+				E61758302AC58A8300BD2483 /* Sources */,
 				E617581C2AC589FC00BD2483 /* AppDelegate.swift */,
 				E617581E2AC589FC00BD2483 /* SceneDelegate.swift */,
 				E61758202AC589FC00BD2483 /* ViewController.swift */,
 				E61758222AC589FC00BD2483 /* Main.storyboard */,
-				E61758252AC589FD00BD2483 /* Assets.xcassets */,
-				E61758272AC589FD00BD2483 /* LaunchScreen.storyboard */,
 				E617582A2AC589FD00BD2483 /* Info.plist */,
 			);
 			path = Chess;
+			sourceTree = "<group>";
+		};
+		E61758302AC58A8300BD2483 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E61758332AC58AC400BD2483 /* Board */,
+				E61758322AC58AC100BD2483 /* Game */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E61758312AC58A9400BD2483 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E61758272AC589FD00BD2483 /* LaunchScreen.storyboard */,
+				E61758252AC589FD00BD2483 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E61758322AC58AC100BD2483 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				E61758362AC58ADB00BD2483 /* Model */,
+				E61758352AC58AD700BD2483 /* View */,
+				E61758342AC58AD000BD2483 /* VC */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		E61758332AC58AC400BD2483 /* Board */ = {
+			isa = PBXGroup;
+			children = (
+				E61758382AC58AED00BD2483 /* View */,
+				E61758372AC58AE000BD2483 /* Model */,
+			);
+			path = Board;
+			sourceTree = "<group>";
+		};
+		E61758342AC58AD000BD2483 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		E61758352AC58AD700BD2483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E61758362AC58ADB00BD2483 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E61758372AC58AE000BD2483 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E61758382AC58AED00BD2483 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +372,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,6 +401,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
